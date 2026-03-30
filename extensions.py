@@ -1,5 +1,3 @@
-# Para futuras extensiones (DB, login, etc)
+from flask_sqlalchemy import SQLAlchemy
 
-# Ejemplo:
-# from flask_sqlalchemy import SQLAlchemy
-# db = SQLAlchemy()
+db = SQLAlchemy()
